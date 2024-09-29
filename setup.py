@@ -8,7 +8,7 @@ setup(
     description="flask tutorial is for vscode test.",
 
     # 项目主页
-    # url="xxx.com",
+    url="https://github.com/qiqilelebaobao/flask-hello",
 
     package_data={"": ["static/*", "staticxxx/*", "templates/*", "*.txt", '*.sh'],},
 
