@@ -1,0 +1,21 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="flask-tutorial",
+    version="1.0.0",
+    author="qiqilelebaobao",
+    author_email="qiqilelebaobao@163.com",
+    description="flask tutorial is for vscode test.",
+
+    # 项目主页
+    # url="xxx.com",
+
+    package_data={"": ["static/*", "staticxxx/*", "templates/*", "*.txt", '*.sh'],},
+
+    # 你要安装的包，通过 setuptools.find_packages 找到当前目录下有哪些包
+    packages=find_packages()
+)
+
+
+# python3 setup.py bdist_wheel
+# scp dist/*.whl dist/install.sh dist/requirements.txt t-u01:/usr/local/flask-tutorial
