@@ -18,4 +18,4 @@ setup(
 
 
 # python3 setup.py bdist_wheel
-# scp dist/*.whl dist/install.sh dist/requirements.txt t-u01:/usr/local/flask-tutorial
+# scp dist/*.whl requirements/install.sh requirements/requirements.txt t-u01:/usr/local/flask-tutorial
