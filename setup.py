@@ -10,7 +10,7 @@ setup(
     # 项目主页
     url="https://github.com/qiqilelebaobao/flask-hello",
 
-    package_data={"": ["static/*", "staticxxx/*", "templates/*", "*.txt", '*.sh'],},
+    package_data={"": ["static/*", "staticxxx/*", "templates/*", "requirements/*", "*.txt", '*.sh'],},
 
     # 你要安装的包，通过 setuptools.find_packages 找到当前目录下有哪些包
     packages=find_packages()
