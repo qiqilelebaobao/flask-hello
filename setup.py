@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="flask-tutorial",
+    name="hello",
     version="1.0.0",
     author="qiqilelebaobao",
     author_email="qiqilelebaobao@163.com",
-    description="flask tutorial is for vscode test.",
+    description="flask hello is for vscode test.",
 
     # 项目主页
     url="https://github.com/qiqilelebaobao/flask-hello",
